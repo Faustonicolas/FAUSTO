@@ -1,83 +1,153 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-/* TODOS LOS H1 */
+
+body{
+    background-image: url(https://www.solofondos.com/wp-content/uploads/2015/11/Fondos-para-paginas-web-profesionales-3D.jpg);
+color: red;
+}
 .h1 {
-    background-color:cornflowerblue;
-    text-align: center;
-
-}
-
-/* CARD  */
-.card-group {
-    color: blue;
-
-}
-.card-body{
-    background-color:black;
-}
-/* FIN CARD */
-
-/* CONTAINER */
-.container {
-    background-color: black;
-    border-style: double;color: white
-}
-/* FIN CONTAINER */
-
-/* TEXT PAGINA HOME */
-.text-bg-primary {
     text-align: center;
 }
-/* FIN TEXT PAGINA HOME */
-
-/* H4 HOME */
-.h4 {
-    padding: 1;
+.h2{
+    text-align: center;
+    text-decoration:underline;
 }
-/* FIN H4 HOME */
-
-/* TODOS LOS H2 */
-
-.h2C{
-    text-align:start;
-    color: red;
+.h4{
+    text-align: center;
 }
-/* FIN TODOS LOS H2 */
-
-.carousel-caption .h5 {
-    color:forestgreen
-}
-.carousel-caption .P{
-    color:white
-}
+/* SLIDER */
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+  }
+  
+  .container{
+    margin: auto;
+    background-color: rgb(2, 2, 2);
+    width: 800px;
+    padding: 30px;
     
-.h2 {
-    background-color: red
-    text-align: center;
-}
-.form-check{
-    color: red
-}
-.form{
-    color: red
-    padding: 3px;
     
-}
-
-.mb-3{
-    color:red
-}
-
-
-.text-bg-primary{
-    text-align: start;
-    color: red;
-    }
-
-
-.color{
-    color: red;
-    background-color:black
-}
-.navbar a:hover{
+  }
+  
+  ul, li {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+  }
+  
+  ul.slider{
+    position: relative;
+    width: 1300px;
+    height: 300px;
+    width: 100%;
+    
+  }
+  
+  ul.slider li {
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      opacity: 0;
+      width: inherit;
+      height: inherit;
+      transition: opacity .5s;
+      background:white;
+      
+  }
+  
+  ul.slider li img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  ul.slider li:first-child {
+      opacity: 1; 
+  }
+  
+  ul.slider li:target {
+      opacity: 1; 
+  }
+  
+  .menu{
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .menu li{
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .menu li a{
+    
+    color: white;
+    text-decoration: none;
     background-color: red;
+    padding: 10px;
+    width: 10px;
+    height: 10px;
+    font-size: 20px;
+    border-radius: 100%;
+  }
+  
+  
+  /* FIN SLIDER */
+  /* BOTON WSP */
+  .btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
 }
+.btn-wsp:hover{
+    background: #20ba5a;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    .btn-wsp{
+        width:63px;
+        height:63px;
+        line-height: 66px;
+	}
+}
+/* FIN BOTON WSP */
+/* RED SOCIAL */
+*{box-sizing:border-box;}
+
+		.container{
+			width:95%;
+			max-width:900px;
+			padding:32px 64px;
+			margin:auto;
+		}
+
+		.social{
+		
+			width:48px;
+			position:fixed;
+			top:50px;
+			right:0;
+      max-width: 48px;
+      max-height: 48px;
+		}
+
+		
+
+		.social{
+			
+			top:50%;
+			height:205px;
+			
+			margin-top:-100px;
+		}
+/* RED SOCIAL */
+
